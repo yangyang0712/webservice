@@ -35,7 +35,7 @@ $key = '29a30658500d3fb53499217eaa016037';
 $weather = new Weather($key);
 $response = $weather->getWeather('广州', 'all');
 ```
-######base:返回实况天气
+###### base:返回实况天气
 
 ###### all:返回预报天气
 
