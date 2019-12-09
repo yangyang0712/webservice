@@ -1,0 +1,15 @@
+{
+    "name":"overtrue/webservice",
+    "description": "A weather SDK.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Overtrue\\Webservice\\": "src"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "phpunit/phpunit": "^8.5",
+        "mockery/mockery": "^1.3"
+    }
+}
